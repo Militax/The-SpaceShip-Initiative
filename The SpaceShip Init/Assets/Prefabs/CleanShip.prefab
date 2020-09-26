@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 8501738390700951036}
   - component: {fileID: 8468660386768086668}
   - component: {fileID: 8475935975169405370}
-  - component: {fileID: 8437022256484010152}
   - component: {fileID: 5152494109777339358}
   - component: {fileID: 3866247536683653355}
+  - component: {fileID: 7340531770284323909}
   m_Layer: 0
   m_Name: CleanShip
   m_TagString: Untagged
@@ -83,20 +83,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &8437022256484010152
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8499859465057408080}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 2559ca81c96fea0488eafdc636c2e693, type: 3}
 --- !u!54 &5152494109777339358
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -111,7 +97,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 124
   m_CollisionDetection: 0
 --- !u!114 &3866247536683653355
 MonoBehaviour:
@@ -125,7 +111,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 716fa52e01d398d49ac77a3bebd0d887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 3000
+--- !u!65 &7340531770284323909
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8499859465057408080}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 21, y: 9, z: 50}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &376225615481891518
 PrefabInstance:
   m_ObjectHideFlags: 0
