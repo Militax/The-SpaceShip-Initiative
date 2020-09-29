@@ -12,14 +12,96 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3edf7e2ea73fbd4eb49c3a6e8bf2700, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: bd3fd983f45c144c919ca417f40346ea
+    GuidInternal: 
+    m_lastTime: -8586007396954222016
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 50b5f600136aed45ad3a645d4109ab39
+    GuidInternal: 
+    m_lastTime: -8586007396954561102
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 2bb22881a6483e4eb70ab9ea75102378
+    GuidInternal: 
+    m_lastTime: -8586007396954082396
+    List: []
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: d9924dc31d162d47b4b4f80c946e0302
+    GuidInternal: 
+    m_lastTime: -8586007396954511232
+    List: []
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 48a41f972ec09744ba84a0457a936f54
+    GuidInternal: 
+    m_lastTime: -8586007396954152208
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 2c1d59cebbd63642813e62b481a5f710
+    GuidInternal: 
+    m_lastTime: -8586007396954172148
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: dbdf1d8d722a904a9d1944acff1973ee
+    GuidInternal: 
+    m_lastTime: -8586007396954491286
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: d046fd708d2aaf49aa5b8b1aa95989e7
+    GuidInternal: 
+    m_lastTime: -8586007396954441433
+    List: []
+  ExpandedItems:
+  - /The SpaceShip Init_WwiseProject
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
