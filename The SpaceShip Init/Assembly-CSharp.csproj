@@ -64,7 +64,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\ShipControle\PlayerBullet.cs" />
     <Compile Include="Assets\Scripts\ShipControle\ShipMouvement.cs" />
+    <Compile Include="Assets\Scripts\ShipControle\TurretShoot.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AKRESULT.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\Ak3DPositionType.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\Ak3DSpatializationMode.cs" />
