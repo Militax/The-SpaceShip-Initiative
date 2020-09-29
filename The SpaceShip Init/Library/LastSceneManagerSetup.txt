@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/_Scenes/GuillaumeLAB.unity
+=======
+- path: Assets/_Scenes/Scene_Mael.unity
+>>>>>>> Mael
   isLoaded: 1
   isActive: 1
   isSubScene: 0
